@@ -5,9 +5,15 @@ using System.Text;
 
 namespace Models
 {
-    class ResturantInfo
+    public class ResturantInfo
     {
         public int ResturantNumber { get; set; }
         public string ResturantName { get; set; }
+
+        public ResturantInfo(int resturantNumber, string resturantName)
+        {
+            ResturantNumber = resturantNumber;
+            ResturantName = resturantName;
+        }
     }
 }
