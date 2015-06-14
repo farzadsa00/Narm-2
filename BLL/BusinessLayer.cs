@@ -47,7 +47,18 @@ namespace BLL
                 return "Password must be than 4 characters.";
             throw new NotImplementedException();
         }
-
+        public string AddFood(FoodInfo food)
+        {
+            throw new NotImplementedException();
+        }
+        public string AddSchedule(FoodScheduleInfo foodSchedule)
+        {
+            throw new NotImplementedException();
+        }
+        public string AddResturant(ResturantInfo resturant)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }
