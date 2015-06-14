@@ -43,6 +43,8 @@ namespace BLL
         }
         public string ChangePassword(StudentInfo student,string newPassword)
         {
+            if (newPassword.Length < 4)
+                return "Password must be than 4 characters.";
             throw new NotImplementedException();
         }
 
