@@ -9,11 +9,11 @@ namespace BLL
 {
     public class BusinessLayer
     {
-        public bool ActivateCard(StudentInfo student)
+        public static bool ActivateCard(StudentInfo student)
         {
             throw new NotImplementedException();
         }
-        public string ReserveFood(StudentInfo student, FoodInfo food,
+        public static string ReserveFood(StudentInfo student, FoodInfo food,
             FoodScheduleInfo foodSchedule, ResturantInfo resturant)
         {
             string result = "";
@@ -25,7 +25,7 @@ namespace BLL
             }
             return result;
         }
-        public string Charge(StudentInfo student, double amount)
+        public static string Charge(StudentInfo student, double amount)
         {
             string result = "";
             using (TransactionScope ts=new TransactionScope())
@@ -34,28 +34,36 @@ namespace BLL
             }
             return result;
         }
-        public bool RequestBalance(StudentInfo student)
+        public static bool RequestBalance(StudentInfo student)
         {
             using (TransactionScope ts = new TransactionScope())
             {
                 throw new NotImplementedException();
             }
         }
-        public string ChangePassword(StudentInfo student,string newPassword)
+        public static string ChangePassword(StudentInfo student,string newPassword)
         {
             if (newPassword.Length < 4)
                 return "Password must be than 4 characters.";
             throw new NotImplementedException();
         }
-        public string AddFood(FoodInfo food)
+        public static string AddFood(FoodInfo food)
         {
             throw new NotImplementedException();
         }
-        public string AddSchedule(FoodScheduleInfo foodSchedule)
+        public static string AddSchedule(FoodScheduleInfo foodSchedule)
         {
             throw new NotImplementedException();
         }
-        public string AddResturant(ResturantInfo resturant)
+        public static string AddResturant(ResturantInfo resturant)
+        {
+            throw new NotImplementedException();
+        }
+        public static string ValidateStudentCard(string cardNumber, string password)
+        {
+            throw new NotImplementedException();
+        }
+        public static string ValidateEmployeeCard(string cardNumber, string password)
         {
             throw new NotImplementedException();
         }

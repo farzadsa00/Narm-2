@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{CADDF96F-143D-475C-9FBD-39FE40ECF3B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Interface", "User Interface\User Interface.csproj", "{5AA69681-413B-4C9E-B582-06E614A9BCE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CADDF96F-143D-475C-9FBD-39FE40ECF3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADDF96F-143D-475C-9FBD-39FE40ECF3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CADDF96F-143D-475C-9FBD-39FE40ECF3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
