@@ -67,6 +67,13 @@ namespace BLL
         {
             throw new NotImplementedException();
         }
-
+        public static StudentInfo GetStudentInfo(string studentNumber)
+        {
+            throw new NotImplementedException();
+        }
+        public static double GetStudentBalance(string studentNumber)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

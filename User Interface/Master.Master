@@ -10,7 +10,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" >
     <div>
         <header class="header-image">
             <img src="Images/HeaderLogo.jpg" />

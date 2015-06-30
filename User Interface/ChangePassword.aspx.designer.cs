@@ -10,78 +10,78 @@
 namespace User_Interface {
     
     
-    public partial class login {
+    public partial class ChangePassword {
         
         /// <summary>
-        /// loginStatusLabel control.
+        /// oldPasswordLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label loginStatusLabel;
+        protected global::System.Web.UI.WebControls.Label oldPasswordLabel;
         
         /// <summary>
-        /// usernameValidator control.
+        /// oldPasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator usernameValidator;
+        protected global::System.Web.UI.WebControls.TextBox oldPasswordTextBox;
         
         /// <summary>
-        /// passwordValidator control.
+        /// newPassworddLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator passwordValidator;
+        protected global::System.Web.UI.WebControls.Label newPassworddLabel;
         
         /// <summary>
-        /// usernameLabel control.
+        /// newPasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label usernameLabel;
+        protected global::System.Web.UI.WebControls.TextBox newPasswordTextBox;
         
         /// <summary>
-        /// usernameTextBox control.
+        /// confirmNewPasswordLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox usernameTextBox;
+        protected global::System.Web.UI.WebControls.Label confirmNewPasswordLabel;
         
         /// <summary>
-        /// passwordLabel control.
+        /// confirmNewPasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label passwordLabel;
+        protected global::System.Web.UI.WebControls.TextBox confirmNewPasswordTextBox;
         
         /// <summary>
-        /// passwordTextBox control.
+        /// CompareValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTextBox;
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
         
         /// <summary>
-        /// loginButton control.
+        /// submitNewPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button loginButton;
+        protected global::System.Web.UI.WebControls.Button submitNewPassword;
     }
 }

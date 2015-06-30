@@ -2,6 +2,8 @@
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
     background-color: #f7f7f7;
+    width:1000px;
+    margin: auto;
 }
 #form1 {
     background-color: #e7e7e7;

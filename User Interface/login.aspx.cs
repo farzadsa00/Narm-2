@@ -18,8 +18,9 @@ namespace User_Interface
 
         protected void loginButton_Click(object sender, EventArgs e)
         {
+            Response.Redirect("StudentHomePage.aspx?username=" + usernameTextBox.Text);
             if (BusinessLayer.ValidateStudentCard(usernameTextBox.Text, passwordTextBox.Text) == "ok")
-                throw new NotImplementedException();
+                Response.Redirect("StudentHomePage.aspx?username=" + usernameTextBox.Text);
             else if (usernameTextBox.Text[0] == 'a')
             {
                 if (BusinessLayer.ValidateEmployeeCard(usernameTextBox.Text, passwordTextBox.Text) == "ok")
@@ -28,7 +29,7 @@ namespace User_Interface
                 }
             }
             else
-                throw new NotImplementedException();
+                loginStatusLabel.Text = "Username or Password is incorrect";
         }
     }
 }
