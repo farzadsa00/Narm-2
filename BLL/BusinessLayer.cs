@@ -75,5 +75,9 @@ namespace BLL
         {
             throw new NotImplementedException();
         }
+        public static EmployeeInfo GetEmployeeInfo(string employeeInfo)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

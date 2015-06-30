@@ -59,10 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="CardActivation.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\Main.css" />
     <Content Include="CSS\StudentHomePage.css" />
+    <Content Include="EditFoodSchedule.aspx" />
+    <Content Include="EmployeeHomePage.aspx" />
     <Content Include="Images\HeaderLogo.jpg" />
     <Content Include="IncreaseBalance.aspx" />
     <Content Include="login.aspx" />
@@ -80,12 +83,27 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CardActivation.aspx.cs">
+      <DependentUpon>CardActivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ChangePassword.aspx.designer.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditFoodSchedule.aspx.cs">
+      <DependentUpon>EditFoodSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeHomePage.aspx.cs">
+      <DependentUpon>EmployeeHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeHomePage.aspx.designer.cs">
+      <DependentUpon>EmployeeHomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="IncreaseBalance.aspx.cs">
       <DependentUpon>IncreaseBalance.aspx</DependentUpon>
