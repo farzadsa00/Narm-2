@@ -157,6 +157,42 @@
       <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\StudentHomePage.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\StudentHomePage.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\StudentHomePage.aspx.FA-IR.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Login.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Login.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Login.aspx.FA-IR.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\IncreaseBalance.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\IncreaseBalance.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\IncreaseBalance.aspx.FA-IR.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EmployeeHomePage.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EmployeeHomePage.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EmployeeHomePage.aspx.FA-IR.resx" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

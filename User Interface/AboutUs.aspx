@@ -6,5 +6,5 @@
     <br />
     <p>The food reservation system(FRS) has been developed by the best and most experienced developers,
          programers and web designers.</p>
-    <p>Team members : Mahnoosh Abdorrahimi, Zeinab Aloosi, Farzad Khalilzadeh</p>
+    <p>Team members : Zeinab Aloosi, Saeed Sohrabi, Farzad Khalilzadeh</p>
 </asp:Content>
