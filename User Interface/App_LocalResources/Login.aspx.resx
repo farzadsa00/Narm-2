@@ -135,4 +135,7 @@
   <data name="UserNotEmpty" xml:space="preserve">
     <value>Username should not be empty</value>
   </data>
+  <data name="rememberme" xml:space="preserve">
+    <value>Remember Me</value>
+  </data>
 </root>

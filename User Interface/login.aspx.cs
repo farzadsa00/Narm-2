@@ -13,24 +13,38 @@ namespace User_Interface
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.Browser.Cookies && Request.Cookies["RememberMe"]!=null)
+            {
+                HttpCookie cookie = Request.Cookies["RememberMe"];
+                Response.Redirect("StudentHomePage.aspx?username" + cookie.Value);
+            }
         }
-
         protected void loginButton_Click(object sender, EventArgs e)
         {
             if (BusinessLayer.ValidateStudentCard(usernameTextBox.Text, passwordTextBox.Text) == "ok")
+            {
+                if (rememberMeCheckBox.Checked)
+                    CreateRememberMeCookie();
                 Response.Redirect("StudentHomePage.aspx?username=" + usernameTextBox.Text);
+            }
             else if (usernameTextBox.Text[0] == 'a')
             {
                 if (BusinessLayer.ValidateEmployeeCard(usernameTextBox.Text, passwordTextBox.Text) == "ok")
                 {
+                    if (rememberMeCheckBox.Checked)
+                        CreateRememberMeCookie();
                     Response.Redirect("EmployeeHomePage.aspx?username=" + usernameTextBox.Text);
                 }
             }
             else
-                loginStatusLabel.Text = "Username or Password is incorrect";
+                loginStatusLabel.Text = @"Username or Password is incorrect";
         }
-
+        private void CreateRememberMeCookie()
+        {
+                HttpCookie cookie = new HttpCookie("RememberMe", usernameTextBox.Text);
+                cookie.Expires.AddMonths(1);
+                Response.Cookies.Add(cookie);
+        }
         protected void LanguageChanged(object sender, EventArgs e)
         {
             Page.Culture = ((RadioButtonList)sender).SelectedValue;
@@ -41,6 +55,7 @@ namespace User_Interface
             usernameLabel.Text = GetLocalResourceObject("Username").ToString();
             passwordLabel.Text = GetLocalResourceObject("Password").ToString();
             loginButton.Text = GetLocalResourceObject("Login").ToString();
+            rememberMeCheckBox.Text = GetLocalResourceObject("rememberme").ToString();
         }
     }
 }

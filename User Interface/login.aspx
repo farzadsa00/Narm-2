@@ -18,6 +18,8 @@
     <asp:Label ID="passwordLabel" runat="server" Text="Password :  " CssClass="password"></asp:Label>
     <asp:TextBox ID="passwordTextBox" runat="server" TextMode="Password" CssClass="password"></asp:TextBox>
     <br />
+    <asp:CheckBox ID="rememberMeCheckBox" runat="server" Text="Remember Me" />
+    <br />
     <br />
     <br />
     <asp:Button ID="loginButton" runat="server" Text="Login" OnClick="loginButton_Click" />

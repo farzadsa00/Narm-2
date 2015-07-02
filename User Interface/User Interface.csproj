@@ -87,6 +87,9 @@
       <DependentUpon>CardActivation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="CardActivation.aspx.designer.cs">
+      <DependentUpon>CardActivation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,6 +100,9 @@
     <Compile Include="EditFoodSchedule.aspx.cs">
       <DependentUpon>EditFoodSchedule.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditFoodSchedule.aspx.designer.cs">
+      <DependentUpon>EditFoodSchedule.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmployeeHomePage.aspx.cs">
       <DependentUpon>EmployeeHomePage.aspx</DependentUpon>
@@ -192,6 +198,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_LocalResources\EmployeeHomePage.aspx.FA-IR.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditFoodSchedule.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditFoodSchedule.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditFoodSchedule.aspx.FA-IR.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ChangePassword.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ChangePassword.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ChangePassword.aspx.FA-IR.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CardActivation.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CardActivation.aspx.en-us.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CardActivation.aspx.FA-IR.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -31,13 +31,13 @@ namespace User_Interface {
         protected global::System.Web.UI.WebControls.TextBox oldPasswordTextBox;
         
         /// <summary>
-        /// newPassworddLabel control.
+        /// newPasswordLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label newPassworddLabel;
+        protected global::System.Web.UI.WebControls.Label newPasswordLabel;
         
         /// <summary>
         /// newPasswordTextBox control.
@@ -83,5 +83,14 @@ namespace User_Interface {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button submitNewPassword;
+        
+        /// <summary>
+        /// languageChangedRadioButtonList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList languageChangedRadioButtonList;
     }
 }

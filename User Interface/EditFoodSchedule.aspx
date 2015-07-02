@@ -1,20 +1,20 @@
-﻿<%@ Page Inherits="User_Interface.EditFoodSchedule" Title="" Language="C#" MasterPageFile="Master.Master" CodeBehind="EditFoodSchedule.aspx.cs" %>
-<asp:Content runat="server" ID="Head" ContentPlaceHolderID="head">
-    <link href="CSS/StudentHomePage.css" type="text/css" rel="stylesheet"/>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="EditFoodSchedule.aspx.cs" Inherits="User_Interface.EditFoodSchedule" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="CSS\StudentHomePage.css" rel="stylesheet" type="text/css"/>
 </asp:Content>
-<asp:Content runat="server" ID="ContentPlaceHolder1" ContentPlaceHolderID="ContentPlaceHolder1">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
     <br />
     <table>
         <tr>
-            <th>Day</th>
-            <th>Date</th>
-            <th>Breakfast</th>
-            <th>Lunch</th>
-            <th>Dinner</th>
+            <th><%=GetLocalResourceObject("Day") %></th>
+            <th><%=GetLocalResourceObject("Date") %></th>
+            <th><%=GetLocalResourceObject("Breakfast") %></th>
+            <th><%=GetLocalResourceObject("Lunch") %></th>
+            <th><%=GetLocalResourceObject("Dinner") %></th>
         </tr>
         <tr>
-            <td>Saturday</td>
+            <td><%=GetLocalResourceObject("saturday") %></td>
             <td class="saturday-date"></td>
             <td class="saturday-breakfast">
                 <asp:DropDownList ID="saturdayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -33,7 +33,7 @@
             </td>
         </tr>
         <tr>
-            <td>Sunday</td>
+            <td><%=GetLocalResourceObject("sunday") %></td>
             <td class="sunday-date"></td>
             <td class="sunday-breakfast">
                 <asp:DropDownList ID="sundayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -52,7 +52,7 @@
             </td>
         </tr>
         <tr>
-            <td>Monday</td>
+            <td><%=GetLocalResourceObject("monday") %></td>
             <td class="monday-date"></td>
             <td class="monday-breakfast">
                 <asp:DropDownList ID="mondayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -71,7 +71,7 @@
             </td>
         </tr>
         <tr>
-            <td>Tuesday</td>
+            <td><%=GetLocalResourceObject("tuesday") %></td>
             <td class="tuesday-date"></td>
             <td class="tuesday-breakfast">
                 <asp:DropDownList ID="tuesdayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -90,7 +90,7 @@
             </td>
         </tr>
         <tr>
-            <td>Wednesday</td>
+            <td><%=GetLocalResourceObject("wednesday") %></td>
             <td class="wednesday-date"></td>
             <td class="wednesday-breakfast">
                 <asp:DropDownList ID="wednesdayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -109,7 +109,7 @@
             </td>
         </tr>
         <tr>
-            <td>Thursday</td>
+            <td><%=GetLocalResourceObject("thursday") %></td>
             <td class="thursday-date"></td>
             <td class="thursday-breakfast">
                 <asp:DropDownList ID="thursdayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -128,7 +128,7 @@
             </td>
         </tr>
         <tr>
-            <td>Friday</td>
+            <td><%=GetLocalResourceObject("friday") %></td>
             <td class="friday-date"></td>
             <td class="friday-breakfast">
                 <asp:DropDownList ID="fridayBreakfastDropDownList" runat="server" CssClass="checkboxlist">
@@ -150,4 +150,11 @@
     <br />
     <br />
     <asp:Button ID="submitButton" runat="server" Text="Submit" />
+    <br />
+    <br />
+    <br />
+    <asp:RadioButtonList ID="languageChangedRadioButtonList" BorderStyle="None" runat="server" OnSelectedIndexChanged="LanguageChanged" AutoPostBack="True">
+            <asp:ListItem Value="en-us" Text="English"></asp:ListItem>
+            <asp:ListItem Value="FA-IR" Text="فارسی"></asp:ListItem>
+    </asp:RadioButtonList>
 </asp:Content>

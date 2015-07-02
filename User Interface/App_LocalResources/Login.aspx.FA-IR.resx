@@ -135,4 +135,7 @@
   <data name="UserNotEmpty" xml:space="preserve">
     <value>نام کابری نباید خالی باشد</value>
   </data>
+  <data name="rememberme" xml:space="preserve">
+    <value>مرا به یاد بسپار</value>
+  </data>
 </root>
