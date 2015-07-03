@@ -162,6 +162,9 @@
   <data name="NextWeek" xml:space="preserve">
     <value>Next Week</value>
   </data>
+  <data name="notenoughbalance" xml:space="preserve">
+    <value>Not Enough Balance</value>
+  </data>
   <data name="Report" xml:space="preserve">
     <value>Report</value>
   </data>
@@ -170,6 +173,9 @@
   </data>
   <data name="Saturday" xml:space="preserve">
     <value>Saturday</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
   </data>
   <data name="Sunday" xml:space="preserve">
     <value>Sunday</value>
@@ -188,5 +194,8 @@
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome,</value>
+  </data>
+  <data name="Reserved" xml:space="preserve">
+    <value>Reserved</value>
   </data>
 </root>

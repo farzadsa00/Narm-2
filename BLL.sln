@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Interface", "User Interface\User Interface.csproj", "{5AA69681-413B-4C9E-B582-06E614A9BCE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Access Layer", "Data Access Layer\Data Access Layer.csproj", "{DC361D5D-0C2B-4DE3-A462-5D9D1C8DEA32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AA69681-413B-4C9E-B582-06E614A9BCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC361D5D-0C2B-4DE3-A462-5D9D1C8DEA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC361D5D-0C2B-4DE3-A462-5D9D1C8DEA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC361D5D-0C2B-4DE3-A462-5D9D1C8DEA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC361D5D-0C2B-4DE3-A462-5D9D1C8DEA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

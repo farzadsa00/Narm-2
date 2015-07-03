@@ -162,6 +162,9 @@
   <data name="NextWeek" xml:space="preserve">
     <value>هفته بعدی</value>
   </data>
+  <data name="notenoughbalance" xml:space="preserve">
+    <value>موجودی کافی نیست</value>
+  </data>
   <data name="Report" xml:space="preserve">
     <value>گزارش</value>
   </data>
@@ -170,6 +173,9 @@
   </data>
   <data name="Saturday" xml:space="preserve">
     <value>شنبه</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>ثبت</value>
   </data>
   <data name="Sunday" xml:space="preserve">
     <value>یکشنبه</value>
@@ -188,5 +194,8 @@
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>،خوش آمدید</value>
+  </data>
+  <data name="Reserved" xml:space="preserve">
+    <value>رزرو شد</value>
   </data>
 </root>

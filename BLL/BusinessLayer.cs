@@ -13,8 +13,12 @@ namespace BLL
         {
             throw new NotImplementedException();
         }
+        public static bool ActivateCard(int cardNumber)
+        {
+            throw new NotImplementedException();
+        }
         public static string ReserveFood(StudentInfo student, FoodInfo food,
-            FoodScheduleInfo foodSchedule, ResturantInfo resturant)
+            FoodSchedule foodSchedule, ResturantInfo resturant)
         {
             string result = "";
             if (!student.CardStatus)
@@ -51,7 +55,7 @@ namespace BLL
         {
             throw new NotImplementedException();
         }
-        public static string AddSchedule(FoodScheduleInfo foodSchedule)
+        public static string AddSchedule(FoodSchedule foodSchedule)
         {
             throw new NotImplementedException();
         }

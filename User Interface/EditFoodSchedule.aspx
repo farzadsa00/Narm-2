@@ -149,7 +149,7 @@
     </table>
     <br />
     <br />
-    <asp:Button ID="submitButton" runat="server" Text="Submit" />
+    <asp:Button ID="submitButton" runat="server" Text="Submit" OnClick="submitButton_Click" />
     <br />
     <br />
     <br />
