@@ -16,7 +16,7 @@ namespace User_Interface
             if (Request.Browser.Cookies && Request.Cookies["RememberMe"]!=null)
             {
                 HttpCookie cookie = Request.Cookies["RememberMe"];
-                Response.Redirect("StudentHomePage.aspx?username" + cookie.Value);
+                Response.Redirect("StudentHomePage.aspx?username=" + cookie.Value);
             }
         }
         protected void loginButton_Click(object sender, EventArgs e)

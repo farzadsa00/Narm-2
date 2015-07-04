@@ -13,55 +13,55 @@ namespace User_Interface
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            FoodSchedule schedule = BusinessLayer.GetSchdeule();
-            saturdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            saturdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            saturdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            saturdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            saturdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            saturdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //FoodSchedule schedule = BusinessLayer.GetSchdeule();
+            //saturdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //saturdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //saturdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //saturdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //saturdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //saturdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
 
-            sundayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            sundayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            sundayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            sundayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            sundayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            sundayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //sundayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //sundayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //sundayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //sundayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //sundayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //sundayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
 
-            mondayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            mondayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            mondayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            mondayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            mondayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            mondayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //mondayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //mondayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //mondayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //mondayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //mondayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //mondayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
 
-            tuesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            tuesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            tuesdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            tuesdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            tuesdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            tuesdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //tuesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //tuesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //tuesdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //tuesdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //tuesdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //tuesdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
 
-            wednesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            wednesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            wednesdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            wednesdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            wednesdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            wednesdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //wednesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //wednesdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //wednesdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //wednesdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //wednesdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //wednesdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
 
-            thursdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            thursdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            thursdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            thursdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            thursdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            thursdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //thursdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //thursdayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //thursdayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //thursdayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //thursdayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //thursdayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
 
-            fridayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
-            fridayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
-            fridayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
-            fridayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
-            fridayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
-            fridayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
+            //fridayBreakfastDropDownList.Items.Add(schedule.Breakfasts[0]);
+            //fridayBreakfastDropDownList.Items.Add(schedule.Breakfasts[1]);
+            //fridayBreakfastDropDownList.Items.Add(schedule.Lunches[0]);
+            //fridayBreakfastDropDownList.Items.Add(schedule.Lunches[1]);
+            //fridayBreakfastDropDownList.Items.Add(schedule.Dinners[0]);
+            //fridayBreakfastDropDownList.Items.Add(schedule.Dinners[1]);
         }
 
         protected void LanguageChanged(object sender, EventArgs e)

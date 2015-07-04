@@ -35,7 +35,7 @@ namespace BLL
                 try
                 {
                     for (int i = 0; i < 7; i++)
-                        DataAccess.InsertReservedFood(student, foodSchedule[i]);
+                        DataAccess.InsertReservedFood(student, foodSchedule[i],day:i);
                     ts.Complete();
                     return "ok";
                 }

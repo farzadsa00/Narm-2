@@ -10,10 +10,10 @@ namespace Models
         public int EmployeeNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Password { get; set; }
 
-        public EmployeeInfo(int number, string fname, string lname, string id, string password)
+        public EmployeeInfo(int number, string fname, string lname, int id, string password)
         {
             EmployeeNumber = number;
             FirstName = fname;
